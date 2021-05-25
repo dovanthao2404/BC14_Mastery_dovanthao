@@ -406,4 +406,6 @@
 .activities__left__text {
   padding: 0 25px;
 }
-/* END ACTIVITES */
+.about__a {
+  color: white;
+}
