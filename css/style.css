@@ -518,6 +518,7 @@
 }
 .footer a:hover {
   color: #fdc800;
+  transition: 0.5s;
 }
 .footer__content {
   padding-bottom: 20px;
