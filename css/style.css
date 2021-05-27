@@ -399,7 +399,7 @@
 .news__left {
 }
 .news__left__content {
-  padding-right: 40px;
+  padding-right: 20px;
 }
 .news__left__list {
   background-color: #ffff;
@@ -456,7 +456,7 @@
 }
 .news__right__content,
 .news__right h2 {
-  padding-left: 20px;
+  padding-left: 60px;
 }
 .news__right__item {
   margin-bottom: 20px;
