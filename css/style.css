@@ -50,6 +50,9 @@ ul {
   margin-right: 50px;
   padding: 8px 0;
 }
+.menu__top__left li a {
+  transition: all 0.5s;
+}
 .menu__top__left li a:hover {
   cursor: pointer;
   color: #fdc800;
@@ -68,10 +71,10 @@ ul {
   padding: 9px 20px;
   border: #fdc800;
   border: 2px solid #fdc800;
+  transition: all 0.5s;
 }
 .btn__menu__top:hover {
   border: 2px solid #fdc800;
-  transition: 0.5s;
   background-color: #002147;
   padding: 9px 20px;
   color: white;
@@ -104,12 +107,12 @@ ul {
   float: left;
 }
 .header__nav a {
+  transition: all 0.5s;
   margin: 0 24px;
   color: black;
 }
 .header__nav a:hover {
   color: #fdc800;
-  transition: 0.5s;
 }
 .header__nav li:first-child a {
   color: #fdc800;
@@ -131,13 +134,13 @@ ul {
   top: 0;
   left: 0;
 }
-.carousel__list {
+.carousel__content .container {
   position: absolute;
   bottom: -230px;
   right: 0;
   left: 0;
 }
-.carousel__list__content {
+.carousel__list {
   margin: -10px;
 }
 .carousel .carousel__item {
@@ -171,15 +174,15 @@ ul {
   padding: 12px 20px;
   border: #fdc800;
   border: 2px solid #fdc800;
+  transition: all 0.5s;
   border-radius: 6px;
   margin-top: 16px;
 }
 .carousel .carousel__text .carousel__btn:hover {
+  transform: scale(1.1);
   color: #fdc800;
   background-color: #002147;
   border: 2px solid #002147;
-  transition: 0.5s;
-  transform: scale(1.1);
 }
 
 /* CSS ABOUT */
@@ -216,11 +219,11 @@ ul {
   border: #fdc800;
   border-radius: 6px;
   margin-top: 32px;
+  transition: all 0.5s;
 }
 .about__left .about__btn:hover {
   color: #fdc800;
   background-color: #002147;
-  transition: 0.5s;
   transform: scale(1.1);
 }
 
@@ -239,12 +242,12 @@ ul {
   text-align: center;
   border-radius: 6px;
   color: white;
+  transition: all 0.5s;
 }
 
 .job__text:hover {
   background: #021a36;
   cursor: pointer;
-  transition: 0.5s;
   transform: scale(1.1);
 }
 .job__icon {
@@ -319,7 +322,7 @@ ul {
   margin-top: 16px;
   margin-bottom: 4px;
 }
-/* ACTIVITES */
+/* NEWS */
 .news {
   background-color: #f6f6f6;
 }
@@ -373,12 +376,12 @@ ul {
   border: #fdc800;
   border-radius: 6px;
   margin-top: 20px;
+  transition: all 0.5s;
   float: right;
 }
 .btn__news:hover {
   background: #021a36;
   cursor: pointer;
-  transition: 0.5s;
   transform: scale(1.1);
   color: #fdc800;
 }
@@ -444,12 +447,12 @@ ul {
   color: white;
   padding: 60px 0;
 }
+.footer a {
+  transition: all 0.5s;
+  color: white;
+}
 .footer a:hover {
   color: #fdc800;
-  transition: 0.5s;
-}
-.footer a {
-  color: white;
 }
 .footer__content {
   padding-bottom: 20px;
