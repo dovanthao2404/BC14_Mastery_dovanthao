@@ -10,7 +10,7 @@
   clear: both;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: auto;
 }
 .col-four {
@@ -342,8 +342,9 @@ ul {
 .news__left__list {
   background-color: #ffff;
   padding: 0 20px;
+  margin-top: 50px;
 }
-.news__left__list,
+
 .news__right__list {
   margin-top: 50px;
 }
